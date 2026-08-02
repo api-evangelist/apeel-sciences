@@ -1,0 +1,80 @@
+generated: '2026-08-02'
+method: probed
+source: live HTTP probes of every resolvable Apeel host
+note: >-
+  No /.well-known/ document was found on any Apeel host. apeel.com answers every
+  unknown path with a 200-rendered HTML 404 page served under HTTP 404, so all
+  probes below are genuine misses, not soft-404 false positives. No WellKnown,
+  SecurityTxt, APICatalog or AgentCard pointer is wired in apis.yml because
+  nothing was found — absence is the recorded result.
+hosts_probed:
+- host: apeel.com
+  resolves: true
+- host: app.apeel.com
+  resolves: true
+  reachable: false
+  note: CNAME to wildcard.apeel.com.herokudns.com; TLS/HTTP connection fails (no app bound)
+- host: api.apeel.com
+  resolves: false
+- host: developer.apeel.com
+  resolves: false
+- host: developers.apeel.com
+  resolves: false
+- host: docs.apeel.com
+  resolves: false
+- host: portal.apeel.com
+  resolves: false
+- host: insights.apeel.com
+  resolves: false
+- host: status.apeel.com
+  resolves: false
+- host: trust.apeel.com
+  resolves: false
+- host: security.apeel.com
+  resolves: false
+documents:
+- path: /.well-known/security.txt
+  host: apeel.com
+  status: 404
+- path: /.well-known/openid-configuration
+  host: apeel.com
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  host: apeel.com
+  status: 404
+- path: /.well-known/api-catalog
+  host: apeel.com
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: apeel.com
+  status: 404
+- path: /.well-known/agent-card.json
+  host: apeel.com
+  status: 404
+- path: /.well-known/agent.json
+  host: apeel.com
+  status: 404
+contract_discovery:
+  outcome: no-machine-readable-contract
+  probed:
+  - path: /openapi.json
+    host: apeel.com
+    status: 404
+  - path: /openapi.yaml
+    host: apeel.com
+    status: 404
+  - path: /swagger.json
+    host: apeel.com
+    status: 404
+  - path: /api-docs
+    host: apeel.com
+    status: 404
+  - path: /llms.txt
+    host: apeel.com
+    status: 404
+  graphql: not-found
+  mcp: not-found
+  a2a: not-found
+x-evidence:
+  fetched: '2026-08-02'
+  method: curl HEAD/GET with redirect following, 15s timeout

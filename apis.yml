@@ -1,7 +1,15 @@
 aid: apeel-sciences
 name: Apeel
-description: 'Apeel is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Apeel (Apeel Sciences) is a food technology company founded in 2012 and headquartered in
+  Goleta, California. It produces a plant-derived, edible coating, made from lipids and glycerolipids
+  found in the peels, seeds and pulp of produce, that is applied to fresh fruit and vegetables at packing
+  houses to slow water loss and oxidation, extending shelf life and reducing food waste across the supply
+  chain. Apeel-treated produce is sold through grocery retailers in multiple countries. In 2021 Apeel
+  acquired ImpactVision and added hyperspectral imaging to its supplier installations to grade interior
+  quality, ripeness and freshness. Apeel is a materials-science and supply-chain operator: as of this
+  profile it publishes no public developer portal, API documentation, machine-readable API contract, or
+  self-serve developer sign-up.'
+image: https://a.storyblok.com/f/157795/1080x360/48b77e842b/apeel-home.jpg
 url: https://raw.githubusercontent.com/api-evangelist/apeel-sciences/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +20,14 @@ created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Food Technology
+- AgTech
+- Food Waste
+- Supply Chain
+- Sustainability
+- Fresh Produce
+- Materials Science
+- Hyperspectral Imaging
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +35,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/apeel-sciences-domain-security.yml
 - type: Website
+  url: https://apeel.com/
+- type: About
+  url: https://apeel.com/our-story
+- type: Products
+  url: https://apeel.com/products
+- type: FAQ
+  url: https://apeel.com/faqs
+- type: News
+  url: https://apeel.com/news-center
+- type: Blog
+  url: https://apeel.substack.com/
+- type: Support
+  url: https://apeel.com/contact-us
+- type: Careers
+  url: https://apeel.com/careers
+- type: TermsOfService
+  url: https://apeel.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://apeel.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/apeelsciences
+- type: LinkedIn
+  url: https://www.linkedin.com/company/apeel
+- type: Investors
   url: https://forgeglobal.com/apeel-sciences_stock/
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
