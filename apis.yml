@@ -9,6 +9,17 @@ description: 'Apeel (Apeel Sciences) is a food technology company founded in 201
   quality, ripeness and freshness. Apeel is a materials-science and supply-chain operator: as of this
   profile it publishes no public developer portal, API documentation, machine-readable API contract, or
   self-serve developer sign-up.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://a.storyblok.com/f/157795/1080x360/48b77e842b/apeel-home.jpg
 url: https://raw.githubusercontent.com/api-evangelist/apeel-sciences/refs/heads/main/apis.yml
 x-type: company
