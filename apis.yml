@@ -1,14 +1,13 @@
 aid: apeel-sciences
 name: Apeel
-description: 'Apeel (Apeel Sciences) is a food technology company founded in 2012 and headquartered in
-  Goleta, California. It produces a plant-derived, edible coating, made from lipids and glycerolipids
-  found in the peels, seeds and pulp of produce, that is applied to fresh fruit and vegetables at packing
-  houses to slow water loss and oxidation, extending shelf life and reducing food waste across the supply
-  chain. Apeel-treated produce is sold through grocery retailers in multiple countries. In 2021 Apeel
-  acquired ImpactVision and added hyperspectral imaging to its supplier installations to grade interior
-  quality, ripeness and freshness. Apeel is a materials-science and supply-chain operator: as of this
-  profile it publishes no public developer portal, API documentation, machine-readable API contract, or
-  self-serve developer sign-up.'
+description: 'Apeel (Apeel Sciences) is a food technology company founded in 2012 and headquartered in Goleta, California.
+  It produces a plant-derived, edible coating, made from lipids and glycerolipids found in the peels, seeds and
+  pulp of produce, that is applied to fresh fruit and vegetables at packing houses to slow water loss and oxidation,
+  extending shelf life and reducing food waste across the supply chain. Apeel-treated produce is sold through grocery
+  retailers in multiple countries. In 2021 Apeel acquired ImpactVision and added hyperspectral imaging to its supplier
+  installations to grade interior quality, ripeness and freshness. Apeel is a materials-science and supply-chain
+  operator: as of this profile it publishes no public developer portal, API documentation, machine-readable API
+  contract, or self-serve developer sign-up.'
 deliveryModel:
   model: saas
   open_source: false
@@ -19,6 +18,18 @@ deliveryModel:
   source:
   - pricing
   generated: '2026-08-28'
+  method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
   method: derived
 image: https://a.storyblok.com/f/157795/1080x360/48b77e842b/apeel-home.jpg
 url: https://raw.githubusercontent.com/api-evangelist/apeel-sciences/refs/heads/main/apis.yml
@@ -74,6 +85,8 @@ common:
   url: https://www.linkedin.com/company/apeel
 - type: Investors
   url: https://forgeglobal.com/apeel-sciences_stock/
+- type: Website
+  url: https://www.apeel.com/
 x-enrichment:
   date: '2026-08-02'
   status: minimal
